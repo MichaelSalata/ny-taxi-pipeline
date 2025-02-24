@@ -6,8 +6,8 @@ sources:
     schema: "{{ env_var('DBT_SCHEMA', 'demo_dataset') }}"
       # loaded_at_field: record_loaded_at
     tables:
-      - name: green_tripdata
-      - name: yellow_tripdata
+      - name: ext_green_tripdata_2019_2022
+      - name: ext_yellow_tripdata_2019_2022
          # freshness:
            # error_after: {count: 6, period: hour}
 
