@@ -50,3 +50,6 @@ seeds:
         taxi_zone_lookup:
             +column_types:
                 locationid: numeric
+
+dbt-cloud:
+    project-id: 70471823435924
