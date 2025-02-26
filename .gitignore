@@ -135,3 +135,4 @@ dmypy.json
 .pyre/
 airflow-venv
 dbt
+.vscode
